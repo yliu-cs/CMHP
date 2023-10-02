@@ -2,11 +2,12 @@
 
 [Yang Liu](https://yliu-cs.github.io), Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li and Guodong Zhou
 
-![Example](figure/intro.png)
+<p>
+  <img src="figure/intro.png" height="300" />
+  <img src="figure/architecture.png" height="300" />
+</p>
 
 Conventional humor analysis normally focuses on text, text-image pair, and even long video (e.g., monologue) scenarios. However, with the recent rise of short-form video sharing, humor detection in this scenario has not yet gained much exploration. To the best of our knowledge, there are two primary issues associated with short-form video humor detection (SVHD): 1) At present, there are no ready-made humor annotation samples in this scenario, and it takes a lot of manpower and material resources to obtain a large number of annotation samples; 2) Unlike the more typical audio and visual modalities, the titles (as opposed to simultaneous transcription in the lengthy film) and associated interactive comments in short-form videos may convey apparent humorous clues. Therefore, in this paper, we first collect and annotate a video dataset from DouYin (aka. TikTok in the world), namely DY24h, with hierarchical comments. Then, we also design a novel approach with comment-aided multi-modal heterogeneous pre-training (CMHP) to introduce comment modality in SVHD. Extensive experiments and analysis demonstrate that our CMHP beats several existing video-based approaches on DY24h, and that the comments modality further aids a better comprehension of humor. Our dataset, code and pre-trained models are available here.
-
-![Architecture](figure/architecture.png)
 
 ## 🎮 DY24h Dataset
 
