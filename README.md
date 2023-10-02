@@ -57,8 +57,8 @@ Conventional humor analysis normally focuses on text, text-image pair, and even 
 │   ├── scheme.py
 │   └── tSNE.py
 ├── utils
-│   ├── config.py
 │   ├── __init__.py
+│   ├── config.py
 │   ├── metrics.py
 │   └── misc.py
 ├── extract.py
