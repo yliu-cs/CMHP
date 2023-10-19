@@ -1,5 +1,7 @@
 # 🎬 Comment-aware Multi-modal Heterogeneous Pre-training for Humor Detection in Short-form Videos
 
+[Comment-aware Multi-modal Heterogeneous Pre-training for Humor Detection in Short-form Videos](https://ebooks.iospress.nl/doi/10.3233/FAIA230438)
+
 [Yang Liu](https://yliu-cs.github.io), Huanqin Ping, Dong Zhang, Qingying Sun, Shoushan Li and Guodong Zhou
 
 <p>
@@ -79,25 +81,20 @@ pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --e
 pip install -r requirements.txt
 ```
 
-## 💾 Data Preprocessing
+## 🚀 Usage
 
 ```sh
+# Data Preprocessing
 python extract.py
-```
 
-## 🚆 Pre-Training
-
-```sh
+# Pre-Training
 python pretrain.py
-```
 
-> Parameters of pre-trained model will be released soon later !
-
-## 📖 Fine-Tuning
-
-```sh
+# Fine-Tuning
 python finetune.py
 ```
+
+> Pre-trained model will be released soon later !
 
 ## 📧 Contact
 
@@ -108,10 +105,33 @@ For any questions or feedback, feel free to contract [Yang Liu](mailto:yliu.cs.c
 If you find DY24h or CMHP useful in your research or applications, please kindly cite:
 
 ```bibtex
-@inproceedings{conf/ecai/Liu23CMHP,
-  author       = {Yang Liu and Huanqin Ping and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
-  title        = {Comment-aware Multi-modal Heterogeneous Pre-training for Humor Detection in Short-form Videos},
-  booktitle    = {ECAI},
-  year         = {2023}
+@inproceedings{conf/ecai/LiuPZSLZ23,
+  author       = {Yang Liu and
+                  Huanqin Ping and
+                  Dong Zhang and
+                  Qingying Sun and
+                  Shoushan Li and
+                  Guodong Zhou},
+  editor       = {Kobi Gal and
+                  Ann Now{\'{e}} and
+                  Grzegorz J. Nalepa and
+                  Roy Fairstein and
+                  Roxana Radulescu},
+  title        = {Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection
+                  in Short-Form Videos},
+  booktitle    = {{ECAI} 2023 - 26th European Conference on Artificial Intelligence,
+                  September 30 - October 4, 2023, Krak{\'{o}}w, Poland - Including
+                  12th Conference on Prestigious Applications of Intelligent Systems
+                  {(PAIS} 2023)},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {372},
+  pages        = {1568--1575},
+  publisher    = {{IOS} Press},
+  year         = {2023},
+  url          = {https://doi.org/10.3233/FAIA230438},
+  doi          = {10.3233/FAIA230438},
+  timestamp    = {Wed, 18 Oct 2023 09:31:16 +0200},
+  biburl       = {https://dblp.org/rec/conf/ecai/LiuPZSLZ23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
