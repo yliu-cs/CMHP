@@ -13,7 +13,7 @@ Conventional humor analysis normally focuses on text, text-image pair, and even 
 
 ## 🎮 DY24h Dataset
 
-> DY24h dataset will be released soon later !
+> Please refer to DY11k in [yliu-cs/CVLA](https://github.com/yliu-cs/CVLA).
 
 ## 🏠 Code Structure
 
