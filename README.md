@@ -106,32 +106,10 @@ If you find DY24h or CMHP useful in your research or applications, please kindly
 
 ```bibtex
 @inproceedings{conf/ecai/LiuPZSLZ23,
-  author       = {Yang Liu and
-                  Huanqin Ping and
-                  Dong Zhang and
-                  Qingying Sun and
-                  Shoushan Li and
-                  Guodong Zhou},
-  editor       = {Kobi Gal and
-                  Ann Now{\'{e}} and
-                  Grzegorz J. Nalepa and
-                  Roy Fairstein and
-                  Roxana Radulescu},
-  title        = {Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection
-                  in Short-Form Videos},
-  booktitle    = {{ECAI} 2023 - 26th European Conference on Artificial Intelligence,
-                  September 30 - October 4, 2023, Krak{\'{o}}w, Poland - Including
-                  12th Conference on Prestigious Applications of Intelligent Systems
-                  {(PAIS} 2023)},
-  series       = {Frontiers in Artificial Intelligence and Applications},
-  volume       = {372},
-  pages        = {1568--1575},
-  publisher    = {{IOS} Press},
-  year         = {2023},
-  url          = {https://doi.org/10.3233/FAIA230438},
-  doi          = {10.3233/FAIA230438},
-  timestamp    = {Wed, 18 Oct 2023 09:31:16 +0200},
-  biburl       = {https://dblp.org/rec/conf/ecai/LiuPZSLZ23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+ author = {Yang Liu and Huanqin Ping and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
+ booktitle = {Proc. of ECAI},
+ pages = {1568--1575},
+ title = {Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos},
+ year = {2023}
 }
 ```
