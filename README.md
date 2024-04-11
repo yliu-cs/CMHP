@@ -106,10 +106,10 @@ If you find DY24h or CMHP useful in your research or applications, please kindly
 
 ```bibtex
 @inproceedings{conf/ecai/LiuPZSLZ23,
- author = {Yang Liu and Huanqin Ping and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
- booktitle = {Proc. of ECAI},
- pages = {1568--1575},
- title = {Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos},
- year = {2023}
+ author       = {Yang Liu and Huanqin Ping and Dong Zhang and Qingying Sun and Shoushan Li and Guodong Zhou},
+ booktitle    = {Proc. of ECAI},
+ pages        = {1568--1575},
+ title        = {Comment-Aware Multi-Modal Heterogeneous Pre-Training for Humor Detection in Short-Form Videos},
+ year         = {2023}
 }
 ```
